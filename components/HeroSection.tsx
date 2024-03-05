@@ -834,11 +834,11 @@ export default function HeroSection() {
         py={{ base: 20, md: 28 }}>
         <Heading
           fontWeight={600}
-          fontSize={{ base: '3xl', sm: '4xl', md: '6xl' }}
+          fontSize={{ base: '5xl', sm: '6xl', md: '8xl' }}
           lineHeight={'110%'}>
-          Meeting scheduling{' '}
-          <Text as={'span'} color={'orange.400'}>
-            made easy
+          Справочник по курсу{' '}
+          <Text as={'span'} color={'blue.500'}>
+            Godot - 4
           </Text>
         </Heading>
         <Text color={'gray.500'} maxW={'3xl'}>
@@ -850,13 +850,13 @@ export default function HeroSection() {
           <Button
             rounded={'full'}
             px={6}
-            colorScheme={'orange'}
-            bg={'orange.400'}
-            _hover={{ bg: 'orange.500' }}>
-            Get started
+            colorScheme={'blue'}
+            bg={'blue.400'}
+            _hover={{ bg: 'blue.500' }}>
+            Приступить
           </Button>
           <Button rounded={'full'} px={6}>
-            Learn more
+            К загрузкам
           </Button>
         </Stack>
         <Flex w={'full'}>

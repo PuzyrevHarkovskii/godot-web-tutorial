@@ -37,13 +37,12 @@ function StatsCard(props: StatsCardProps) {
 export default function Chapter() {
   return (
     <Box maxW="7xl" mx={'auto'} pt={5} px={{ base: 2, sm: 12, md: 17 }}>
-      <chakra.h1 textAlign={'center'} fontSize={'4xl'} py={10} fontWeight={'bold'}>
+      <chakra.h1 textAlign={'center'} fontSize={'6xl'} py={10} fontWeight={'bold'}>
         Начало работы с проектом
       </chakra.h1>
-      <SimpleGrid columns={{ base: 1, md: 3 }} spacing={{ base: 5, lg: 8 }}>
+      <SimpleGrid columns={{ base: 1, md: 2 }} spacing={{ base: 5, lg: 8 }}>
         <StatsCard title={''} stat={'Создание проекта'} />
         <StatsCard title={''} stat={'Настройка проекта'} />
-        <StatsCard title={''} stat={'Что-то еще'} />
       </SimpleGrid>
     </Box>
   )

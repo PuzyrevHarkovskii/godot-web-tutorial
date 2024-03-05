@@ -38,11 +38,16 @@ import { Button, useColorMode } from '@chakra-ui/react'
 import { BsSun, BsMoonStarsFill } from 'react-icons/bs'
 import HeroSection from './HeroSection'
 
-import ColorModeToggle from './ColorModeToggle'
-import SimpleAccordion from './SimpleAccordion'
+import ColorModeToggle from './1 Part/ColorModeToggle'
+import SimpleAccordion from './1 Part/SimpleAccordion'
 import Home from '@/app/page'
 
-import Chapter from './Chapter'
+import Chapter from './1 Part/Chapter'
+import StartInfo from './StartInfo'
+import VideoSection from './1 Part/VideoSection'
+import SecondChapter from './2 Part/SecondChapter'
+import SecondVideoSection from './2 Part/SecondVideoSection'
+import SecondSimpleAccordion from './2 Part/SecondSimpleAccordion'
 interface LinkItemProps {
   name: string
   icon: IconType
@@ -230,7 +235,13 @@ const SidebarWithHeader = () => {
       <MobileNav onOpen={onOpen} />
       <Box ml={{ base: 0, md: 60 }} p="4">
         <HeroSection/>
+        <StartInfo/>
         <Chapter/>
+        <VideoSection/>
+        <SimpleAccordion/>
+        <SecondChapter/>
+        <SecondVideoSection/>
+        <SecondSimpleAccordion/>
       </Box>
     </Box>
   )
