@@ -36,6 +36,7 @@ import { IconType } from 'react-icons'
 
 import { Button, useColorMode } from '@chakra-ui/react'
 import { BsSun, BsMoonStarsFill } from 'react-icons/bs'
+import HeroSection from './HeroSection'
 
 interface LinkItemProps {
   name: string
@@ -219,7 +220,9 @@ const SidebarWithHeader = () => {
       {/* mobilenav */}
       <MobileNav onOpen={onOpen} />
       <Box ml={{ base: 0, md: 60 }} p="4">
-        {/* Content */}
+        {
+          
+        }
       </Box>
     </Box>
   )

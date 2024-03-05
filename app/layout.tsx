@@ -6,11 +6,12 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import SidebarWithHeader from '@/components/Sidebar';
+import Footer from '@/components/Footer';
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Godot 4 - Web-Tutorial",
+  title: "Godot 4 - Web - Tutorial",
   description: "Web-tutorial Godot 4 by @app1e.jews",
 };
 
@@ -24,8 +25,10 @@ export default function RootLayout({
       <body>
         <ChakraProvider>
           <SidebarWithHeader/>
+          <Footer/>
         </ChakraProvider>
-        {children}</body>
+        {children}
+        </body>
     </html>
   );
 }
