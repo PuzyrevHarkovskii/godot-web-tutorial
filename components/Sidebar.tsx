@@ -38,6 +38,8 @@ import { Button, useColorMode } from '@chakra-ui/react'
 import { BsSun, BsMoonStarsFill } from 'react-icons/bs'
 import HeroSection from './HeroSection'
 
+import ColorModeToggle from './ColorModeToggle'
+
 interface LinkItemProps {
   name: string
   icon: IconType
@@ -157,7 +159,9 @@ const MobileNav = ({ onOpen, ...rest }: MobileProps) => {
       </Text>
 
       <HStack spacing={{ base: '0', md: '6' }}>
-        <IconButton size="lg" variant="ghost" aria-label="open menu" icon={<FiBell />} />
+      
+      <ColorModeToggle/>
+
         <Flex alignItems={'center'}>
           <Menu>
             <MenuButton py={2} transition="all 0.3s" _focus={{ boxShadow: 'none' }}>
