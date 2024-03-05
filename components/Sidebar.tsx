@@ -39,7 +39,10 @@ import { BsSun, BsMoonStarsFill } from 'react-icons/bs'
 import HeroSection from './HeroSection'
 
 import ColorModeToggle from './ColorModeToggle'
+import SimpleAccordion from './SimpleAccordion'
+import Home from '@/app/page'
 
+import Chapter from './Chapter'
 interface LinkItemProps {
   name: string
   icon: IconType
@@ -131,6 +134,7 @@ const NavItem = ({ icon, children, ...rest }: NavItemProps) => {
 
 const MobileNav = ({ onOpen, ...rest }: MobileProps) => {
   return (
+    
     <Flex
       ml={{ base: 0, md: 60 }}
       px={{ base: 4, md: 4 }}
@@ -141,6 +145,7 @@ const MobileNav = ({ onOpen, ...rest }: MobileProps) => {
       borderBottomColor={useColorModeValue('gray.200', 'gray.700')}
       justifyContent={{ base: 'space-between', md: 'flex-end' }}
       {...rest}>
+        
       <IconButton
         display={{ base: 'flex', md: 'none' }}
         onClick={onOpen}
@@ -224,9 +229,8 @@ const SidebarWithHeader = () => {
       {/* mobilenav */}
       <MobileNav onOpen={onOpen} />
       <Box ml={{ base: 0, md: 60 }} p="4">
-        {
-          
-        }
+        <HeroSection/>
+        <Chapter/>
       </Box>
     </Box>
   )
