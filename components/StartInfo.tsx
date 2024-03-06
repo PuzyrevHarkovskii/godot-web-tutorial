@@ -97,7 +97,7 @@ const stats = [
     ),
   },
   {
-    title: 'Что-то еще',
+    title: 'Набор ассетов',
     content: (
       <>
         <StatsText>Farms</StatsText> in North America has chosen NewLife™ as their
