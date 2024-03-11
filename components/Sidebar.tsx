@@ -240,7 +240,7 @@ const SidebarWithHeader = () => {
         
         <SimpleAccordion/>
         <SecondChapter/>
-        
+        <SecondVideoSection/>
         <SecondSimpleAccordion/>
       </Box>
     </Box>
