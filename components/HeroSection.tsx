@@ -837,14 +837,13 @@ export default function HeroSection() {
           fontSize={{ base: '5xl', sm: '6xl', md: '8xl' }}
           lineHeight={'110%'}>
           Справочник по курсу{' '}
-          <Text as={'span'} color={'blue.500'} >
+          <Text as={'span'} color={'blue.500'} fontSize={{ base: '9xl', sm: '810xl', md: '12xl' }}>
             Godot - 4
           </Text>
         </Heading>
         <Text color={'gray.500'} maxW={'3xl'}>
-          Never miss a meeting. Never be late for one too. Keep track of your meetings and
-          receive smart reminders in appropriate times. Read your smart “Daily Agenda”
-          every morning.
+        Сопроводительный материал к курсу "Разработка 2D RPG на Godot 4". 
+        Здесь вы найдете уроки, инструкции, видео и загрузочные материалы для обучения.
         </Text>
         <Stack spacing={6} direction={'row'}>
           <Button

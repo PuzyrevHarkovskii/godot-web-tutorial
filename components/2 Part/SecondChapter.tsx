@@ -43,7 +43,7 @@ export default function SecondChapter() {
       <SimpleGrid columns={{ base: 1, md: 3 }} spacing={{ base: 5, lg: 8 }}>
         <StatsCard title={''} stat={'Работа со спрайтом'} />
         <StatsCard title={''} stat={'Реализация управления'} />
-        <StatsCard title={''} stat={'Анимация ходьбы'} />
+        <StatsCard title={''} stat={'Анимация'} />
       </SimpleGrid>
     </Box>
   )

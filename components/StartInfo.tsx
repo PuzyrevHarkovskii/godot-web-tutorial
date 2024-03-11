@@ -82,8 +82,7 @@ const stats = [
     title: 'Gogot 4',
     content: (
       <>
-        <StatsText>Software modules</StatsText> for detailed monitoring and real-time
-        analytics
+        <StatsText><a href="https://godotengine.org/download/windows/">Ссылка - </a></StatsText> скачать с официального сайта Godot Engine
       </>
     ),
   },
@@ -106,11 +105,11 @@ const stats = [
     ),
   },
   {
-    title: 'Что-то еще',
+    title: 'Проекты студентов',
     content: (
       <>
-        <StatsText>Plants</StatsText> currently connected and monitored by the NewLife™
-        software
+        <StatsText><a href="https://drive.google.com/drive/folders/10EajsTnmejX7-79_OIWwnyrzwwav-pls?usp=sharing">Ссылка - </a></StatsText> загрузить или скачать свой проект.
+        
       </>
     ),
   },

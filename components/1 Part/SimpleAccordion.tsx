@@ -21,7 +21,7 @@ export default function SimpleAccordion() {
       justify={'center'}
       bg={useColorModeValue('gray.50', 'gray.800')}>
       <Container>
-        <Accordion allowMultiple width="100%" maxW="2xl" rounded="lg">
+        <Accordion allowMultiple width="100%" maxW="lg" rounded="lg">
           <AccordionItem>
             <AccordionButton
               display="flex"
