@@ -842,7 +842,7 @@ export default function HeroSection() {
           </Text>
         </Heading>
         <Text color={'gray.500'} maxW={'3xl'}>
-        Сопроводительный материал к курсу "Разработка 2D RPG на Godot 4". 
+        Сопроводительный материал к курсу &quot;Разработка 2D RPG на Godot 4&quot;. 
         Здесь вы найдете уроки, инструкции, видео и загрузочные материалы для обучения.
         </Text>
         <Stack spacing={6} direction={'row'}>
