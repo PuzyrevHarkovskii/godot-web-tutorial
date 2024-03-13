@@ -42,11 +42,11 @@ export default function VideoSection() {
                 bg: 'red.400',
                 zIndex: -1,
               }}>
-              Создаем
+              Создание
             </Text>
             <br />
             <Text as={'span'} color={'blue.400'}>
-              персонажа!
+              проекта
             </Text>
           </Heading>
           <Text color={'gray.500'}>

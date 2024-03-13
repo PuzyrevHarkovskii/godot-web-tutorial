@@ -99,8 +99,7 @@ const stats = [
     title: 'Набор ассетов',
     content: (
       <>
-        <StatsText>Farms</StatsText> in North America has chosen NewLife™ as their
-        management solution
+        <StatsText><a href="https://drive.google.com/drive/folders/1WmFL4zyeCwXks4QHI7f9fhRt0pWqI9Ri?usp=drive_link">Ссылка - </a></StatsText> на Google Drive.
       </>
     ),
   },
