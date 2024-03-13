@@ -237,7 +237,7 @@ const SidebarWithHeader = () => {
         <HeroSection/>
         <StartInfo/>
         <Chapter/>
-        
+        <VideoSection/>
         <SimpleAccordion/>
         <SecondChapter/>
         <SecondVideoSection/>
