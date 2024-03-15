@@ -72,7 +72,7 @@ export default function Footer() {
         justify={{ base: 'center', md: 'space-between' }}
         align={{ base: 'center', md: 'center' }}>
         <Logo />
-        <Text>© 2024 made by @app1e.jews</Text>
+        <Text fontSize={'12'}>© 2024 made by @app1e.jews</Text>
         <Stack direction={'row'} spacing={6}>
           <SocialButton label={'Twitter'} href={'#'}>
             <FaTwitter />

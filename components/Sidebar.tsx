@@ -1,5 +1,6 @@
 'use client'
 
+
 import {
   IconButton,
   Avatar,
@@ -117,7 +118,7 @@ const NavItem = ({ icon, children, ...rest }: NavItemProps) => {
         role="group"
         cursor="pointer"
         _hover={{
-          bg: 'cyan.400',
+          bg: 'blue.500',
           color: 'white',
         }}
         {...rest}>

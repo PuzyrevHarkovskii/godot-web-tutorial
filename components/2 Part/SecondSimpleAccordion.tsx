@@ -73,8 +73,8 @@ export default function SecondSimpleAccordion() {
               alignItems="center"
               justifyContent="space-between"
               p={4}>
-              <Text fontSize="md">Анимация ходьбы персонажа
-</Text>
+              <Text fontSize="md">Анимация ходьбы персонажа</Text>
+
               <ChevronDownIcon fontSize="24px" />
             </AccordionButton>
             <AccordionPanel pb={4}>
@@ -89,8 +89,8 @@ export default function SecondSimpleAccordion() {
               alignItems="center"
               justifyContent="space-between"
               p={4}>
-              <Text fontSize="md">Ссылки
-</Text>
+              <Text fontSize="md">Ссылки</Text>
+
               <ChevronDownIcon fontSize="24px" />
             </AccordionButton>
             <AccordionPanel pb={4}>

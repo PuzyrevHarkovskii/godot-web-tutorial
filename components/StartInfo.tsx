@@ -5,7 +5,7 @@ import { Stack, Container, Box, Flex, Text, Heading, SimpleGrid } from '@chakra-
 
 export default function StartInfo() {
   return (
-    <Box bg={'gray.800'} position={'relative'}>
+    <Box id = "downloads" bg={'gray.800'} position={'relative'}>
       <Flex
         flex={1}
         zIndex={0}
