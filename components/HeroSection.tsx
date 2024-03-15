@@ -837,7 +837,7 @@ export default function HeroSection() {
           fontSize={{ base: '5xl', sm: '6xl', md: '8xl' }}
           lineHeight={'110%'}>
           Справочник по курсу{' '}
-          <Text as={'span'} color={'blue.500'} fontSize={{ base: '9xl', sm: '810xl', md: '12xl' }}>
+          <Text as={'span'} color={'blue.500'} fontSize={{ base: '8xl', sm: '9xl', md: '11xl' }}>
             Godot - 4
           </Text>
         </Heading>

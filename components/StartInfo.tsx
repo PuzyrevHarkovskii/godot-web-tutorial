@@ -45,9 +45,7 @@ export default function StartInfo() {
                 Необходимый софт
               </Heading>
               <Text fontSize={'xl'} color={'gray.400'}>
-                The NewLife™ technology allows you to monitor your crops and get complete
-                insights at real time. The proprietary software/hardware ecosystem
-                prevents your plants from getting neglected.
+                Загрузочные материалы, которые необходимы для повторения действий из уроков, включают в себя программное обеспечение, ассеты и другие обучающие ресурсы.
               </Text>
             </Box>
 

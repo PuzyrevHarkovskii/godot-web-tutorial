@@ -7,7 +7,7 @@ import {
   AccordionPanel,
   Flex,
   useColorModeValue,
-  Text,
+  Text, Box,
   Container, Code
 } from '@chakra-ui/react'
 
@@ -32,6 +32,7 @@ export default function SimpleAccordion() {
               <ChevronDownIcon fontSize="24px" />
             </AccordionButton>
             <AccordionPanel pb={4}>
+              
               <Text color="gray.600">
               <ul>
                 <li>Открываем Godot.</li>
@@ -79,8 +80,6 @@ export default function SimpleAccordion() {
                 then import the components you need in your project. The Chakra UI
                 documentation <br/>
                 <Code>Hello world</Code>
-                is also a great resource for getting started and learning
-                more about the library.
               </Text>
             </AccordionPanel>
           </AccordionItem>
